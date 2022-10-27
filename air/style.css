@@ -1,0 +1,77 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif; /*폰트 css*/
+    list-style: none; /*목록에 점 x*/
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    overflow:hidden;
+}
+
+.intro_bg{
+    background-image: url("img/back_img1.jpg");
+    margin-top: 200px;
+    margin-left : 300px;
+    width: 1920px;
+    height: 720px;
+}
+
+/* .searchArea{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.searchArea > form > input{
+    border:none;
+    width: 250px;
+    height: 40px;
+    padding-left:10px;
+    background: rgba[0,0,0,0,0];
+} */
+.header{
+    display:flex;
+    width:1920px;
+    margin: auto;
+    /* background-color: skyblue; */
+    height: 86px;
+}
+
+.nav{
+    display:flex;
+    width:100%;
+    justify-content: flex-end;
+    /* background-color: azure; */
+    line-height: 86px;
+}
+
+.nav > li{
+    margin-left: 100px;
+}
+
+.iner{
+    display:flex;
+    width:1080px;
+    height:100px;
+    margin-top:50px;
+    margin-left:100px;
+    border-radius: 5px;
+}
+
+.iner > li > div{
+    border-radius: 5px;
+    background-color: rgb(214, 240, 240);
+    border: 1px solid gray;
+    width: 200px;
+    text-align: center;
+    margin-top:36px;
+    margin-left:32px;
+}
+
+.iner > li{
+    flex : 1;
+    background-color: rgb(255, 255, 255);
+}
